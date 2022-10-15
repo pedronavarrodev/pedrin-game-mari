@@ -13,6 +13,10 @@
 </head>
 <body>
 
+  <audio autoplay id="bgAudio">
+    <source src="../audio.mp3" volume="0.2" type="audio/mpeg">
+  </audio>
+
   <main>
     <header>
       <span class="player"></span>
@@ -21,6 +25,9 @@
   
     <div class="grid"></div>
   </main>
-
+  <script>
+    var audio = document.getElementById("bgAudio");
+    audio.volume = 0.2;
+  </script>
 </body>
 </html>

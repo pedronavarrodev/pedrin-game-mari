@@ -9,3 +9,7 @@
   font-family: 'Press Start 2P', cursive;
   background-color: rgb(26, 26, 26);
 }
+
+audio {
+	display: none;
+  }
